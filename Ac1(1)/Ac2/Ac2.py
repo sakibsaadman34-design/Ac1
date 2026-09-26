@@ -1,9 +1,6 @@
-string = input("Enter a string: ")
+n = int(input("Enter a Number: "))
 
-string2 = ' '
+print ("The numbers from {0} to {1} are: ".format(n, 0))
 
-for i in string:
-    string2 = i + string2
-
-print("Original String:", string)
-print("Reversed String:", string2)
+for i in range(n, 0, -1):
+    print(i)
